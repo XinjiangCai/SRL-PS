@@ -14,6 +14,43 @@ With the displacement of traditional synchronous generators by IBRs (e.g., renew
 
 The controller is designed as a **smooth monotonic neural network**, and trained via a **RNN-based structure** that integrates swing equation dynamics directly into the recurrent training process to capture time-dependent patterns for effective learning.
 
+## Project Structure
+```
+SRL-PS/
+│
+├── data/                            # Power system data (e.g., IEEE 39-bus Kron-reduced)
+│   └── IEEE_39bus_Kron.mat
+│
+├── env/                             # Common simulation environment and dynamics
+│   └── interact_env.py
+│
+├── robust_droop/                    # Robust linear droop controller implementation
+│   ├── main.py                      # Evaluation script
+│   └── train.py                     # RL-style training with droop controller
+│
+├── piecewise_linear/               # Piecewise-linear stabilizing controller (baseline)
+│   ├── main.py
+│   └── train.py
+│
+├── smooth_nonlinear/               # Proposed smooth-nonlinear monotonic controller
+│   ├── main.py
+│   └── train.py
+│
+├── vis/                             # Visualization of training results and comparisons
+│   ├── freqdev_comp/                # Frequency deviation comparison
+│   │   ├── *.npy                    # Raw TFD data
+│   │   ├── *.png                    # Plots of deviation over time
+│   │   └── vis.py                   # Plotting script for TFD
+│   │
+│   └── loss_comp/                   # Training loss comparison across methods
+│       ├── *.npy
+│       ├── *.png
+│       └── loss_vis.py
+│
+├── LICENSE                          # MIT or other license file
+└── README.md                        # Project introduction and usage guide
+```
+
 ## Getting Started
 
 ### Prerequisites
