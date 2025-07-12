@@ -10,16 +10,18 @@ This repository implements a stability-guaranteed reinforcement learning algorit
 
 ## Background
 
-With the displacement of traditional synchronous generators by IBRs (e.g., renewable sources, batteries), flexibly regulate active power supply of these resources can help maintain system stability. This work proposes a new approach combining reinforcement learning with stability certification via Lyapunov functions.
+With the displacement of traditional synchronous generators by IBRs (e.g., renewable sources, batteries), flexibly regulating active power supply of these resources can help maintain system stability. This work proposes a new approach combining reinforcement learning with stability certification via Lyapunov functions.
 
-The controller is designed as a **smooth monotonic neural network**, and trained via a **physics-informed algorithm** that integrates swing equation dynamics directly into the recurrent training process.
+The controller is designed as a **smooth monotonic neural network**, and trained via a **RNN-based structure** that integrates swing equation dynamics directly into the recurrent training process to capture time-dependent patterns for effective learning.
 
 ## Getting Started
 
 ### Prerequisites
 
 - Python 3.8+
-- Recommended environment: `conda` or `venv`
+- Pytorch 2.5.*
+- Recommended environment: `conda` or `venv
+  
 
 ### Installation
 
