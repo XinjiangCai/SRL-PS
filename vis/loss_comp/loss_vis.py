@@ -88,7 +88,6 @@ ax.add_patch(rect)
 # mark_inset(ax, axins, loc1=2, loc2=4, fc="none", ec="gray", lw=1, linestyle='none')
 
 plt.tight_layout()
-plt.savefig('Loss_Comparison_with_Beautiful_Zoom.png', dpi=300, bbox_inches='tight')
-print("[✓] Saved elegant loss comparison figure.")
+plt.savefig('Loss_Comparison_with_Zoom.png', dpi=300, bbox_inches='tight')
 
 # plt.show()
