@@ -15,6 +15,7 @@ With the displacement of traditional synchronous generators by IBRs (e.g., renew
 The controller is designed as a **smooth monotonic neural network**, and trained via a **RNN-based structure** that integrates swing equation dynamics directly into the recurrent training process to capture time-dependent patterns for effective learning.
 
 ## Project Structure
+```
 SRL-PS/
 │
 ├── data/                            # Power system data (e.g., IEEE 39-bus Kron-reduced)
@@ -48,6 +49,7 @@ SRL-PS/
 │
 ├── LICENSE                          # MIT or other license file
 └── README.md                        # Project introduction and usage guide
+```
 
 ## Getting Started
 
