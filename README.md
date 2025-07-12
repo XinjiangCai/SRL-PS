@@ -5,7 +5,7 @@ This repository implements a stability-guaranteed reinforcement learning algorit
 
 - **Lyapunov-constrained neural controllers** ensuring system stability by construction
 - **Smooth, monotonic control policies** with better approximation capacity than piecewise-linear controllers
-- **Physics-Informed RNN (PIML) framework** embedding power system dynamics into RL training
+- **Policy-gradient RL with RNN framework** embedding power system dynamics into RL training
 - Benchmarked on **IEEE 39-bus system**, with comparisons to robust droop and PWL controllers
 
 ## Background
