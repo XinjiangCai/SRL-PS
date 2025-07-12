@@ -24,6 +24,9 @@ The controller is designed as a **smooth monotonic neural network**, and trained
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/stability-rl-frequency-control.git
-cd stability-rl-frequency-control
-pip install -r requirements.txt
+git clone https://github.com/XinjiangCai/Stable_RL_PWR_SYS.git
+
+### Author
+- Xinjiang Cai (xca@kth.se, truingcai@gmail.com)
+- Former Research Engineer, Division of Electric Power and Energy Systems, EECS, KTH
+
