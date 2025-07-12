@@ -20,7 +20,7 @@ The controller is designed as a **smooth monotonic neural network**, and trained
 
 - Python 3.8+
 - Pytorch 2.5.*
-- Recommended environment: `conda` or `venv
+- Recommended environment: `conda`
   
 
 ### Installation
