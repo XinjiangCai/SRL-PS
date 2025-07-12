@@ -29,7 +29,11 @@ The controller is designed as a **smooth monotonic neural network**, and trained
 git clone https://github.com/XinjiangCai/Stable_RL_PWR_SYS.git
 ```
 
-### Author
+## Author
 - Xinjiang Cai (xca@kth.se, truingcai@gmail.com)
 - Former Research Engineer, Division of Electric Power and Energy Systems, EECS, KTH
 
+## Acknowledgement
+The work was finished independently by the author during a stay at KTH Royal Institute of Technology.
+The data were from open-source resources, and the code was inspired by https://github.com/Wenqi-Cui/RNN-RL-Frequency-Lyapunov.
+The computational resources were provided by Hangzhou Innovation Institute of Beihang University.
