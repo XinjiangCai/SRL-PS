@@ -77,6 +77,6 @@ SimulationLength = 1000
 gen_id = [2, 3, 8]
 
 trainer.result_vis(model_name, result_name, Pi, gen_id, SimulationLength)
-trainer.plot_learned_policies(model_name, policy_name)
+# trainer.plot_learned_policies(model_name, policy_name)
 # plot_loss_record_from_file()
 # plot_u_from_weights(weight_name)
