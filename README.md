@@ -71,8 +71,6 @@ git clone https://github.com/XinjiangCai/Stable_RL_PWR_SYS.git
 - Former Research Engineer, Division of Electric Power and Energy Systems, EECS, KTH
 
 ## Acknowledgement
-The work was finished independently by the author during a stay at KTH Royal Institute of Technology.
-
-The data were from open-source resources, and the code was inspired by https://github.com/Wenqi-Cui/RNN-RL-Frequency-Lyapunov.
-
-The computational resources were provided by Hangzhou Innovation Institute of Beihang University.
+- The work was finished independently by the author during a stay at KTH Royal Institute of Technology.
+- The data were from open-source resources, and the code was inspired by https://github.com/Wenqi-Cui/RNN-RL-Frequency-Lyapunov.
+- The computational resources were provided by Hangzhou Innovation Institute of Beihang University.
